@@ -1,3 +1,7 @@
+import streamlit as st
+import plotly.express as px
+import pandas as pd
+
 df = pd.read_csv("https://github.com/Otto0222/ejercicio/blob/main/Credit.csv")
 df.drop(columns=["Unnamed: 0"], inplace=True)
 # Ver información general del dataset
